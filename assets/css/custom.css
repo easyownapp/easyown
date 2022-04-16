@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* icons */
+
+.check::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: green;
+    content: "\f058";
+}
+
+.info::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(114, 1, 207);
+    content: "\f06a";
+}
+
+.warning::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    content: "\f05a";
+}
+
+.ready::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: orange;
+    content: "\f164";
+}
+
+.out::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(10, 75, 64);
+    content: "\f060";
+}
+
+
+/* icons end */
+
+
+/* colors */
+
+.green {
+    color: green;
+    font-weight: 600;
+}
+
+.out {
+    color: rgb(10, 75, 64);
+    font-weight: 600;
+}
+
+.violet {
+    color: rgb(114, 1, 207);
+    font-weight: 600;
+}
+
+.red {
+    color: red;
+    font-weight: 600;
+}
+
+.orange {
+    color: orange;
+    font-weight: 600;
+}
+
+
+/* colors end */
